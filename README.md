@@ -34,7 +34,7 @@ The bot is structured in the following components:
   
 ### Clone the Repository
 ```bash
-git clone https://github.com/your_username/crypto-arbitrage-bot.git
+git clone https://github.com/kashyapnathan/crypto-arbitrage.git
 cd crypto-arbitrage-bot
 ```
 
