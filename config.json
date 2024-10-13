@@ -1,0 +1,120 @@
+{
+  "exchanges": [
+    {
+      "name": "binance",
+      "api_key_env": "BINANCE_API_KEY",
+      "secret_key_env": "BINANCE_SECRET_KEY",
+      "fees": {
+        "taker": 0.001,
+        "maker": 0.001
+      }
+    },
+    {
+      "name": "kraken",
+      "api_key_env": "KRAKEN_API_KEY",
+      "secret_key_env": "KRAKEN_SECRET_KEY",
+      "fees": {
+        "taker": 0.0026,
+        "maker": 0.0016
+      }
+    },
+    {
+      "name": "coinbase",
+      "api_key_env": "COINBASE_API_KEY",
+      "secret_key_env": "COINBASE_SECRET_KEY",
+      "fees": {
+        "taker": 0.005,
+        "maker": 0.005
+      }
+    },
+    {
+      "name": "bitfinex",
+      "api_key_env": "BITFINEX_API_KEY",
+      "secret_key_env": "BITFINEX_SECRET_KEY",
+      "fees": {
+        "taker": 0.002,
+        "maker": 0.001
+      }
+    },
+    {
+      "name": "huobi",
+      "api_key_env": "HUOBI_API_KEY",
+      "secret_key_env": "HUOBI_SECRET_KEY",
+      "fees": {
+        "taker": 0.002,
+        "maker": 0.002
+      }
+    },
+    {
+      "name": "bittrex",
+      "api_key_env": "BITTREX_API_KEY",
+      "secret_key_env": "BITTREX_SECRET_KEY",
+      "fees": {
+        "taker": 0.0025,
+        "maker": 0.0025
+      }
+    },
+    {
+      "name": "poloniex",
+      "api_key_env": "POLONIEX_API_KEY",
+      "secret_key_env": "POLONIEX_SECRET_KEY",
+      "fees": {
+        "taker": 0.0015,
+        "maker": 0.0015
+      }
+    },
+    {
+      "name": "bitstamp",
+      "api_key_env": "BITSTAMP_API_KEY",
+      "secret_key_env": "BITSTAMP_SECRET_KEY",
+      "fees": {
+        "taker": 0.005,
+        "maker": 0.005
+      }
+    },
+    {
+      "name": "gemini",
+      "api_key_env": "GEMINI_API_KEY",
+      "secret_key_env": "GEMINI_SECRET_KEY",
+      "fees": {
+        "taker": 0.0035,
+        "maker": 0.001
+      }
+    },
+    {
+      "name": "okx",
+      "api_key_env": "OKX_API_KEY",
+      "secret_key_env": "OKX_SECRET_KEY",
+      "fees": {
+        "taker": 0.0015,
+        "maker": 0.001
+      }
+    },
+    {
+      "name": "kucoin",
+      "api_key_env": "KUCOIN_API_KEY",
+      "secret_key_env": "KUCOIN_SECRET_KEY",
+      "fees": {
+        "taker": 0.001,
+        "maker": 0.001
+      }
+    },
+    {
+      "name": "ftx",
+      "api_key_env": "FTX_API_KEY",
+      "secret_key_env": "FTX_SECRET_KEY",
+      "fees": {
+        "taker": 0.0007,
+        "maker": 0.0002
+      }
+    }
+  ],
+  "symbol": "BTC/USD",
+  "min_profit_percent": 0.001,
+  "trade_amount": 0.05,
+  "max_trade_amount": 5,
+  "trade_currency": "BTC",
+  "initial_balance": 1000000,
+  "log_level": "INFO",
+  "check_interval": 2.5
+}

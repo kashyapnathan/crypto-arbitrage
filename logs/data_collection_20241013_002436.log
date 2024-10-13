@@ -1,0 +1,66 @@
+2024-10-13 00:24:36,997 [INFO] Starting data collection process
+2024-10-13 00:24:36,997 [INFO] Starting data collection for binanceus
+2024-10-13 00:24:37,003 [INFO] Using symbol BTC/USD for binanceus
+2024-10-13 00:24:37,229 [INFO] Successfully loaded markets for binanceus
+2024-10-13 00:24:37,229 [INFO] Fetching data from binanceus for BTC/USD...
+2024-10-13 00:24:37,229 [INFO] Start date: 2021-01-01T00:00:00Z, End date: 2021-01-08T00:00:00Z
+2024-10-13 00:25:08,275 [INFO] Fetched data for binanceus up to 2021-01-01 16:40:00+00:00
+2024-10-13 00:25:37,993 [ERROR] Error fetching data from binanceus at timestamp 1609519200000: binanceus 429 Too Many Requests {"code":-1003,"msg":"Too much request weight used; current limit is 1200 request weight per 1 MINUTE. Please use WebSocket Streams for live updates to avoid polling the API."}
+2024-10-13 00:25:38,015 [INFO] Data saved to data/binanceus_BTCUSD.csv. Total records: 1934
+2024-10-13 00:25:38,015 [INFO] Completed data collection for binanceus
+2024-10-13 00:25:38,016 [INFO] Starting data collection for coinbase
+2024-10-13 00:25:38,019 [INFO] Using symbol BTC/USD for coinbase
+2024-10-13 00:25:39,197 [INFO] Successfully loaded markets for coinbase
+2024-10-13 00:25:39,197 [INFO] Fetching data from coinbase for BTC/USD...
+2024-10-13 00:25:39,197 [INFO] Start date: 2021-01-01T00:00:00Z, End date: 2021-01-08T00:00:00Z
+2024-10-13 00:26:10,943 [INFO] Fetched data for coinbase up to 2021-01-01 05:00:00+00:00
+2024-10-13 00:26:42,789 [INFO] Fetched data for coinbase up to 2021-01-01 10:00:00+00:00
+2024-10-13 00:27:14,568 [INFO] Fetched data for coinbase up to 2021-01-01 15:00:00+00:00
+2024-10-13 00:27:46,449 [INFO] Fetched data for coinbase up to 2021-01-01 20:00:00+00:00
+2024-10-13 00:28:18,208 [INFO] Fetched data for coinbase up to 2021-01-02 01:00:00+00:00
+2024-10-13 00:28:50,052 [INFO] Fetched data for coinbase up to 2021-01-02 06:00:00+00:00
+2024-10-13 00:29:21,962 [INFO] Fetched data for coinbase up to 2021-01-02 11:00:00+00:00
+2024-10-13 00:29:53,690 [INFO] Fetched data for coinbase up to 2021-01-02 16:00:00+00:00
+2024-10-13 00:30:25,382 [INFO] Fetched data for coinbase up to 2021-01-02 21:00:00+00:00
+2024-10-13 00:30:57,137 [INFO] Fetched data for coinbase up to 2021-01-03 02:00:00+00:00
+2024-10-13 00:31:28,875 [INFO] Fetched data for coinbase up to 2021-01-03 07:00:00+00:00
+2024-10-13 00:32:00,605 [INFO] Fetched data for coinbase up to 2021-01-03 12:00:00+00:00
+2024-10-13 00:32:32,361 [INFO] Fetched data for coinbase up to 2021-01-03 17:00:00+00:00
+2024-10-13 00:33:04,102 [INFO] Fetched data for coinbase up to 2021-01-03 22:00:00+00:00
+2024-10-13 00:33:36,117 [INFO] Fetched data for coinbase up to 2021-01-04 03:00:00+00:00
+2024-10-13 00:34:08,641 [INFO] Fetched data for coinbase up to 2021-01-04 08:00:00+00:00
+2024-10-13 00:34:41,240 [INFO] Fetched data for coinbase up to 2021-01-04 13:00:00+00:00
+2024-10-13 00:35:13,729 [INFO] Fetched data for coinbase up to 2021-01-04 18:00:00+00:00
+2024-10-13 00:35:46,359 [INFO] Fetched data for coinbase up to 2021-01-04 23:00:00+00:00
+2024-10-13 00:36:19,144 [INFO] Fetched data for coinbase up to 2021-01-05 04:00:00+00:00
+2024-10-13 00:36:51,761 [INFO] Fetched data for coinbase up to 2021-01-05 09:00:00+00:00
+2024-10-13 00:37:24,297 [INFO] Fetched data for coinbase up to 2021-01-05 14:00:00+00:00
+2024-10-13 00:37:56,841 [INFO] Fetched data for coinbase up to 2021-01-05 19:00:00+00:00
+2024-10-13 00:38:29,592 [INFO] Fetched data for coinbase up to 2021-01-06 00:00:00+00:00
+2024-10-13 00:39:02,205 [INFO] Fetched data for coinbase up to 2021-01-06 05:00:00+00:00
+2024-10-13 00:39:34,749 [INFO] Fetched data for coinbase up to 2021-01-06 10:00:00+00:00
+2024-10-13 00:40:07,295 [INFO] Fetched data for coinbase up to 2021-01-06 15:00:00+00:00
+2024-10-13 00:40:39,950 [INFO] Fetched data for coinbase up to 2021-01-06 20:00:00+00:00
+2024-10-13 00:41:12,439 [INFO] Fetched data for coinbase up to 2021-01-07 01:00:00+00:00
+2024-10-13 00:41:45,009 [INFO] Fetched data for coinbase up to 2021-01-07 06:00:00+00:00
+2024-10-13 00:42:17,598 [INFO] Fetched data for coinbase up to 2021-01-07 11:00:00+00:00
+2024-10-13 00:42:50,101 [INFO] Fetched data for coinbase up to 2021-01-07 16:00:00+00:00
+2024-10-13 00:43:22,545 [INFO] Fetched data for coinbase up to 2021-01-07 21:00:00+00:00
+2024-10-13 00:43:41,662 [INFO] Reached end time for coinbase
+2024-10-13 00:43:41,662 [INFO] Fetched data for coinbase up to 2021-01-08 02:00:00+00:00
+2024-10-13 00:43:41,746 [INFO] Data saved to data/coinbase_BTCUSD.csv. Total records: 10080
+2024-10-13 00:43:41,746 [INFO] Completed data collection for coinbase
+2024-10-13 00:43:41,746 [INFO] Starting data collection for kraken
+2024-10-13 00:43:41,751 [INFO] Using symbol BTC/USD for kraken
+2024-10-13 00:43:42,856 [INFO] Successfully loaded markets for kraken
+2024-10-13 00:43:42,857 [INFO] Fetching data from kraken for BTC/USD...
+2024-10-13 00:43:42,858 [INFO] Start date: 2021-01-01T00:00:00Z, End date: 2021-01-08T00:00:00Z
+2024-10-13 00:43:44,221 [INFO] Reached end time for kraken
+2024-10-13 00:43:44,221 [INFO] Fetched data for kraken up to 2024-10-13 04:44:00+00:00
+2024-10-13 00:43:45,226 [WARNING] No data collected for kraken
+2024-10-13 00:43:45,227 [INFO] Completed data collection for kraken
+2024-10-13 00:43:45,227 [INFO] Starting data collection for bitfinex
+2024-10-13 00:43:45,237 [INFO] Using symbol BTC/USD for bitfinex
+2024-10-13 00:43:57,358 [INFO] Successfully loaded markets for bitfinex
+2024-10-13 00:43:57,358 [INFO] Fetching data from bitfinex for BTC/USD...
+2024-10-13 00:43:57,358 [INFO] Start date: 2021-01-01T00:00:00Z, End date: 2021-01-08T00:00:00Z

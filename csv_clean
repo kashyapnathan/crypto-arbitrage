@@ -1,0 +1,31 @@
+import pandas as pd
+import os
+
+
+def clean_csv(input_file):
+    # Read the CSV file
+    df = pd.read_csv(input_file, parse_dates=['timestamp'])
+
+    # Remove duplicates, keeping the first occurrence
+    df_cleaned = df.drop_duplicates(
+        subset=['timestamp', 'bid', 'ask'], keep='first')
+
+    # Sort by timestamp
+    df_cleaned = df_cleaned.sort_values('timestamp')
+
+    # Generate the output file name
+    file_name, file_extension = os.path.splitext(input_file)
+    output_file = f"{file_name}_v1{file_extension}"
+
+    # Save the cleaned data to a new CSV file
+    df_cleaned.to_csv(output_file, index=False)
+
+    print(f"Original row count: {len(df)}")
+    print(f"Cleaned row count: {len(df_cleaned)}")
+    print(f"Removed {len(df) - len(df_cleaned)} duplicate rows")
+    print(f"Cleaned data saved to: {output_file}")
+
+
+# Example usage
+input_file = 'data/coinbase_BTCUSD.csv'
+clean_csv(input_file)
